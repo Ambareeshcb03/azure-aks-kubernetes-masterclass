@@ -14,7 +14,7 @@ spec:
       labels:
         app: app1-nginx
     spec:
-      containers:
+     containers:
         - name: app1-nginx
           image: aksdevopsacr.azurecr.io/custom2aksnginxapp1
           ports:
